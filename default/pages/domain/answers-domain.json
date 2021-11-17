@@ -1,7 +1,10 @@
 {
-  "$id": "answers-domain",
+  "$id": "kriegner.at",
   "$schema": "https://schema.yext.com/config/pages/domain/v1",
-  "domainName": "${{businessId}}.landingpagessbx.yextengtest.com",
+  "domainName": "${{domainname}}",
   "autoGenerateSitemap": true,
-  "domainAccess": true
+  "domainAccess": false,
+  "pagesCDNAccess": true,
+  "answersIntegration": true,
+  "reverseProxy": false
 }
